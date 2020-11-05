@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Chats</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
+<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header class="top-header">
+      <div class="header__top">
+          <div class="header__column">
+            <i class="fas fa-plane"></i>
+            <i class="fas fa-wifi"></i>
+          </div>
+          <div class="header__column">
+            <span class="header__time">18:38</span>
+          </div>
+          <div class="header__column">
+            <i class="fas fa-moon"></i>
+            <i class="fab fa-bluetooth-b"></i>
+            <span class="header__battery">66%<i class="fas fa-battery-three-quarters"></i></span>
+          </div>
+      </div>
+      <div class="header__bottom">
+          <div class="header__column">
+            <span class="header__text">Edit</span>
+          </div>
+          <div class="header__column">
+            <span class="header__text">Chats</span><i class="fas fa-caret-down"></i>
+          </div>
+          <div class="header__column"></div>
+      </div>
+    </header>
+    <main class="chats">
+      <div class="search-bar">
+        <i class="fas fa-search" id="search"></i>
+        <input type="text" name="" value="" placeholder="Find friends, chats, Plus friends">
+      </div>
+      <ul class="chats__list">
+        <li class="chats__chat">
+          <a href="chat.html">
+          <div class="chat__content">
+              <img src="images/avatar.jpg">
+              <div class="chat__preview">
+                  <h3 class="chat__user">Ryan</h3>
+                  <span class="chat__last-message">네 반가워요.</span>
+              </div>
+          </div>
+          <span class="chat__date-time">
+              15:55
+          </span>
+          </a>
+        </li>
+        <li class="chats__chat">
+          <a href="chat.html">
+          <div class="chat__content">
+            <img src="images/kakao.jpg">
+            <div class="chat__preview">
+              <h3 class="chat__user">KaKaoTalk</h3>
+              <span class="chat__last-message">
+                You logged into KaKaoTalk
+              </span>
+            </div>
+          </div>
+          <span class="chat__date-time">
+            13:27
+          </span>
+          </a>
+        </li>
+      </ul>
+      <div class="chat-btn">
+        <i class="fas fa-comment-alt"></i>
+      </div>
+    </main>
+
+    <nav class="tab-var">
+      <a href="index.html" class="tab-var__tab">
+        <i class="fas fa-user"></i><span class="tab-var__title">friends</span>
+      </a>
+      <a href="chats.html" class="tab-var__tab tab-var__tab--selected">
+        <i class="fas fa-comments"></i><span class="tab-var__title">chats</span>
+      </a>
+      <a href="find.html" class="tab-var__tab">
+        <i class="fas fa-search"></i><span class="tab-var__title">search</span>
+      </a>
+      <a href="more.html" class="tab-var__tab">
+        <i class="fas fa-ellipsis-h"></i><span class="tab-var__title">more</span>
+      </a>
+    </nav>
+    <div class="bigScreenText">
+      <span>Please make your screen smaller</span>
+    </div>
+  </body>
+</html>
